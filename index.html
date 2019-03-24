@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel=¨stylesheet¨ type=¨text/css¨ href=¨CalcProject.css¨>
+    <script src = "CalcProject.js"></script>
+    <title>Calculus Calculator</title>
+</head>
+<!--calculator for derivative, antiderivative, integral, etc
+user input function, make readable, send to calc function
+output text and graph
+show steps
+
+first goal: calculate derivative, output derivative
+    todo: get input, validate input, simplify input, evaluate input, display output
+second goal: add anntiderivative and integral
+third goal: graph
+fourth goal: show steps
+-->
+
+<body>
+    <input type="text" placeholder ="input a function" id = "funcIn" name = "funcIn">
+    <br>
+    <p>Type in a polynomial and hit Calculate! to get the derivative. Example: (x^3)-2*x</p>
+    <button type="button" id ="CalcFunc" onclick = 'calculate();'>Calculate!</button>
+    <div id = "funcOut"></div>
+</body>
+</html>
