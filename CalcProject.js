@@ -3,6 +3,9 @@ var str_inp = "x^3";
 console.log(str_inp);
 function calculate(str_inp) {
     //var inp = document.getElementById("funcIn").value;
+    if (str_inp !== undefined && str_innp.length !== undefined) {
+        console.log("whoops");
+    } else { 
     for(i = 0; i < str_inp.length; i++) {
         console.log(str_inp);
         console.log(i);
