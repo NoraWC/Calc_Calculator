@@ -8,9 +8,11 @@ function calculate(str_inp) {
         console.log(str_inp);
         console.log(i);
         if(str_inp[i] = "^") {
-            var exp = str_inp[i+1];
-            var temp = exp+"x";
-            str_inp = str_inp[0,i-1]+temp+str_inp[i+1,str_inp.length];
+            var exponent = str_inp[i+1];
+            console.log(exponent);
+            var temporary = exponent+"x";
+            console.log(temporary);
+            str_inp = str_inp[0,i-1]+temporary+str_inp[i+1,str_inp.length];
             console.log(str_inp);
         }
     }
