@@ -11,12 +11,11 @@ function calculate(str_inp) {
         console.log(l);
         if(str_inp[i] = "^") {
             console.log(i);
-            var exponent = str_inp[i];
+            var exponent = str_inp[i+2];
             console.log(exponent);
             var temporary = exponent+"x";
             console.log(temporary);
-            str_inp = str_inp[0,i-1]+temporary+str_inp[i+1, l];
-            console.log(str_inp);
+            return temporary;
         }
     }
 }
