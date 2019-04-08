@@ -6,9 +6,10 @@ function calculate(str_inp) {
     str_inp = "x^3";
     for(i = 0; i < str_inp.length; i++) {
         console.log(str_inp);
-        console.log(i);
+        
         if(str_inp[i] = "^") {
-            var exponent = str_inp[i+1];
+            console.log(i);
+            var exponent = str_inp[i];
             console.log(exponent);
             var temporary = exponent+"x";
             console.log(temporary);
