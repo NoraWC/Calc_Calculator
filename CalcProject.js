@@ -11,7 +11,7 @@ function calculate() {
             console.log(exponent);
             var temporary = parseInt(exponent)-1;
             console.log(temporary);
-            var final = temporary+"x";
+            var final = exponent+"x^"+temporary;
             console.log(final);
             return final;
         }
