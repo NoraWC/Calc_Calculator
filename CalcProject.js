@@ -1,8 +1,7 @@
 
-inp = "x^3";
+var inp = "x^3";
 function calculate(inp) {
     //var inp = document.getElementById("funcIn").value;
-    inp = inp.toString();
     for(i = 0; i < inp.length; i++) {
         if(inp[i] = "^") {
             var exp = inp[i+1];
