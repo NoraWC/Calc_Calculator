@@ -6,7 +6,7 @@ function calculate(str_inp) {
     str_inp = "x^3";
     for(i = 0; i < str_inp.length; i++) {
         console.log(str_inp);
-        
+        console.log(str_inp.length);
         if(str_inp[i] = "^") {
             console.log(i);
             var exponent = str_inp[i];
