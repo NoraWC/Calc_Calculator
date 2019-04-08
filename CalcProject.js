@@ -1,4 +1,3 @@
-//var str_inp = "x^3";
 console.log(str_inp);
 function calculate() {
     var str_inp = document.getElementById("funcIn").value;
