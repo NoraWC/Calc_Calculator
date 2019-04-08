@@ -1,4 +1,3 @@
-console.log(str_inp);
 function calculate() {
     var str_inp = document.getElementById("funcIn").value;
     l = str_inp.length;
