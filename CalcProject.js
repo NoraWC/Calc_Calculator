@@ -14,6 +14,7 @@ function calculate() {
             var final = exponent+"x^"+temporary;
             console.log(final);
             return final;
+            document.getElementById("FuncOut").innerHTML = final;
         }
     }
 }
